@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: micronaut-mock
+  executors:
+    io:
+      type: fixed
+      nThreads: 250
+
+
+  #Uncomment to set server port
+  server:
+    port: 3000
